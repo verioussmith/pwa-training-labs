@@ -1,25 +1,25 @@
 /* main.css */
 
-/*
-.container {
+
+/* Add Pregressive Enhancement CSS if Flexbox not supported */
+.no-flexbox .container {
   background: #eee;
   overflow: auto;
 }
 
-.container .col {
+.no-flexbox .container .col {
     width: 27%;
     padding: 30px 3.15% 0;
     float: left;
 }
 
-/* TODO 3 - style the page
-
 @media screen and (max-width: 48rem) {
-  .container .col {
+  .no-flexbox .container .col {
     width: 95%;
   }
 }
-*/
+/* Add Pregressive Enhancement CSS if Flexbox not supported */
+
 
 .container {
   display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6 */
