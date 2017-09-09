@@ -21,7 +21,9 @@
 /* Add Pregressive Enhancement CSS if Flexbox not supported */
 
 
-.container {
+
+/* Add Pregressive Enhancement CSS if Flexbox is supported */
+.flexbox .container {
   display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6 */
   display: -ms-flexbox;  /* TWEENER - IE 10 */
   display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
@@ -29,17 +31,20 @@
   overflow: auto;
 }
 
-.container .col {
+.flexbox .container .col {
   flex: 1;
   padding: 1rem;
 }
 
 
 @media screen and (max-width: 48rem) {
-  .container {
+  .flexbox .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     flex-flow: column;
   }
 }
+/* Add Pregressive Enhancement CSS if Flexbox is supported */
+
+
