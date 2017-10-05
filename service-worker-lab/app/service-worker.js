@@ -18,6 +18,11 @@ limitations under the License.
 
   // TODO - 3.1: Add install and activate event listeners
 
+  self.addEventListener('install', function(event) {
+  console.log('Service worker installing...');
+  // TODO 3.4: Skip waiting
+  });
+
   // TODO - 3.3: Add a comment to change the service worker
 
   // TODO - 4: Add fetch listener
