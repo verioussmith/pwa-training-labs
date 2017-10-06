@@ -23,6 +23,7 @@ limitations under the License.
     console.log('Service worker installing...');
     
     // TODO 3.4: Skip waiting
+    self.skipWaiting();
   
   });
 
