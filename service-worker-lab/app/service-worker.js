@@ -34,6 +34,8 @@ limitations under the License.
 
   // TODO - 3.3: Add a comment to change the service worker
 
+  // I'm a new service worker
+
   // TODO - 4: Add fetch listener
 
 })();
